@@ -27,12 +27,12 @@
 // "constructor"
 // sets default values
 void init_control(Tcontrol *c) {
-	set_control(c,  KEY_UP,
-					KEY_DOWN,
-					KEY_LEFT,
-					KEY_RIGHT,
-					KEY_LCONTROL,
-					KEY_ALT);
+	set_control(c,  __allegro_KEY_UP,
+					__allegro_KEY_DOWN,
+					__allegro_KEY_LEFT,
+					__allegro_KEY_RIGHT,
+					__allegro_KEY_J,
+					__allegro_KEY_K);
 
 	c->flags = 0;
 	c->use_joy = 0;

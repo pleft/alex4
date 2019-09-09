@@ -6,8 +6,8 @@
 
 TARGET = alex4
 
-CC = mipsel-linux-gcc
-#CC = gcc
+#CC = mipsel-linux-gcc
+CC = gcc
 
 CFLAGS = -g -O2 -Wall -Wno-deprecated-declarations
 LDFLAGS = `allegro-config --libs` -laldmb -ldumb -lm
